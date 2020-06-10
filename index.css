@@ -1,0 +1,148 @@
+body{
+padding: 0;
+margin: 0;
+font-family: 'Josefin Sans', sans-serif;
+ 
+}
+.display{
+font-size: 3em;
+font-size: bolder;
+color: #ffffff;
+font-family: 'Josefin Sans', sans-serif;
+margin: 0 0 30px 0 ;
+padding: 0;
+}
+
+.container{
+width: 100%;
+height: 100vh;
+background-image:linear-gradient(120deg,#d3b2f0, #b2e2f0 ) ;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+
+}
+.game-container{
+width: 80%;
+height: 70vh;
+background-color: #ffffff;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+-webkit-box-shadow: 0px 0px 28px -1px rgba(255,255,255,1);
+-moz-box-shadow: 0px 0px 28px -1px rgba(255,255,255,1);
+box-shadow: 0px 0px 28px -1px rgba(255,255,255,1);
+}
+
+#players{
+    height: 40vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.player{
+width: 70%;
+margin: 10px;
+height: 80%;
+display: flex;
+justify-content: center;
+align-items:center;
+-webkit-box-shadow: 0px 0px 28px -1px rgba(255,255,255,1);
+-moz-box-shadow: 0px 0px 28px -1px rgba(255,255,255,1);
+box-shadow: 0px 0px 28px -1px rgba(255,255,255,1);
+background-color: #b2e2f0;
+transition: all 1s ease;
+}
+
+.middle-deck{
+width: 100%;
+height: 25vh;
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+bottom: 0;
+right: 0;
+    background-color: #d3b2f0;
+}
+
+#btn-start{
+position: absolute;
+bottom: 12px;
+border: none;
+background-color: #d3b2f0;
+width: 120px;
+height: 40px;
+font-family: 'Josefin Sans', sans-serif;
+font-weight: bolder;
+transition: all 1s ease;
+cursor: pointer;
+-webkit-box-shadow: 0px 0px 28px -1px rgba(255,255,255,1);
+-moz-box-shadow: 0px 0px 28px -1px rgba(255,255,255,1);
+box-shadow: 0px 0px 28px -1px rgba(255,255,255,1);
+
+}
+#btn-start:hover{
+
+    background-color: #ffffff;
+    color: #d3b2f0;
+}
+
+#btn-start:focus{
+
+  outline: none;
+  border: none;
+}
+
+#btn-play{
+    border: none;
+    background-color: #d3b2f0;
+    margin-top: 50px;
+    width: 120px;
+    height: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    transition: all 1s ease;
+    cursor: pointer;
+    z-index: 9;
+    -webkit-box-shadow: 0px 0px 28px -1px rgba(255,255,255,1);
+-moz-box-shadow: 0px 0px 28px -1px rgba(255,255,255,1);
+box-shadow: 0px 0px 28px -1px rgba(255,255,255,1);
+    }
+    #btn-play:hover{
+    
+        background-color: #ffffff;
+        color: #d3b2f0;
+    }
+    
+    #btn-play:focus{
+    
+      outline: none;
+      border: none;
+    }
+
+    .middle-card{
+        background-color: #ffffff;
+        width: 100px;
+        height: 22vh;
+        margin-right: 30px;
+       
+    }
+    .closed-deck{ 
+        background-image: url('https://i.pinimg.com/236x/c1/59/b4/c159b4738dae9c9d8d6417228024de8d--playing-card-design-card-card.jpg') ;
+        width: 100px;
+        height: 22vh;
+        background-size: 100px 22vh;
+    }
